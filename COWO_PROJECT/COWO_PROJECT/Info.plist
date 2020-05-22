@@ -60,5 +60,13 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Gotham Book.ttf</string>
+		<string>GOTHAM-MEDIUM.TTF</string>
+		<string>GOTHAM-BOLD.TTF</string>
+		<string>GOTHAM-BLACK.TTF</string>
+		<string>GOTHAM-LIGHT.TTF</string>
+	</array>
 </dict>
 </plist>

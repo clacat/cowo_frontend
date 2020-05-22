@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25162C132478149000E87196 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25162C122478149000E87196 /* ProfileViewController.swift */; };
+		25162C1E2478485400E87196 /* Gotham Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25162C1D2478485400E87196 /* Gotham Book.ttf */; };
+		25162C202478489300E87196 /* GOTHAM-BLACK.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 25162C1F2478489300E87196 /* GOTHAM-BLACK.TTF */; };
+		25162C22247848BF00E87196 /* GOTHAM-MEDIUM.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 25162C21247848BF00E87196 /* GOTHAM-MEDIUM.TTF */; };
 		25C7FBD12476DE3F002771D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C7FBD02476DE3F002771D5 /* AppDelegate.swift */; };
 		25C7FBD32476DE3F002771D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C7FBD22476DE3F002771D5 /* SceneDelegate.swift */; };
-		25C7FBD52476DE3F002771D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C7FBD42476DE3F002771D5 /* ViewController.swift */; };
+		25C7FBD52476DE3F002771D5 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C7FBD42476DE3F002771D5 /* TabBarViewController.swift */; };
 		25C7FBD82476DE3F002771D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25C7FBD62476DE3F002771D5 /* Main.storyboard */; };
 		25C7FBDB2476DE3F002771D5 /* COWO_PROJECT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 25C7FBD92476DE3F002771D5 /* COWO_PROJECT.xcdatamodeld */; };
 		25C7FBDD2476DE42002771D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25C7FBDC2476DE42002771D5 /* Assets.xcassets */; };
@@ -17,10 +21,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25162C122478149000E87196 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		25162C1D2478485400E87196 /* Gotham Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gotham Book.ttf"; sourceTree = "<group>"; };
+		25162C1F2478489300E87196 /* GOTHAM-BLACK.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GOTHAM-BLACK.TTF"; path = "../../../../Downloads/Telegram Desktop/GOTHAM-BLACK.TTF"; sourceTree = "<group>"; };
+		25162C21247848BF00E87196 /* GOTHAM-MEDIUM.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GOTHAM-MEDIUM.TTF"; path = "../../../../Downloads/Telegram Desktop/GOTHAM-MEDIUM.TTF"; sourceTree = "<group>"; };
 		25C7FBCD2476DE3F002771D5 /* COWO_PROJECT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = COWO_PROJECT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25C7FBD02476DE3F002771D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25C7FBD22476DE3F002771D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		25C7FBD42476DE3F002771D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		25C7FBD42476DE3F002771D5 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		25C7FBD72476DE3F002771D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		25C7FBDA2476DE3F002771D5 /* COWO_PROJECT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = COWO_PROJECT.xcdatamodel; sourceTree = "<group>"; };
 		25C7FBDC2476DE42002771D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -39,6 +47,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25162C172478313D00E87196 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				25162C1F2478489300E87196 /* GOTHAM-BLACK.TTF */,
+				25162C21247848BF00E87196 /* GOTHAM-MEDIUM.TTF */,
+				25162C1D2478485400E87196 /* Gotham Book.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		25C7FBC42476DE3F002771D5 = {
 			isa = PBXGroup;
 			children = (
@@ -58,9 +76,11 @@
 		25C7FBCF2476DE3F002771D5 /* COWO_PROJECT */ = {
 			isa = PBXGroup;
 			children = (
+				25162C172478313D00E87196 /* fonts */,
 				25C7FBD02476DE3F002771D5 /* AppDelegate.swift */,
 				25C7FBD22476DE3F002771D5 /* SceneDelegate.swift */,
-				25C7FBD42476DE3F002771D5 /* ViewController.swift */,
+				25C7FBD42476DE3F002771D5 /* TabBarViewController.swift */,
+				25162C122478149000E87196 /* ProfileViewController.swift */,
 				25C7FBD62476DE3F002771D5 /* Main.storyboard */,
 				25C7FBDC2476DE42002771D5 /* Assets.xcassets */,
 				25C7FBDE2476DE42002771D5 /* LaunchScreen.storyboard */,
@@ -130,6 +150,9 @@
 			files = (
 				25C7FBE02476DE42002771D5 /* LaunchScreen.storyboard in Resources */,
 				25C7FBDD2476DE42002771D5 /* Assets.xcassets in Resources */,
+				25162C1E2478485400E87196 /* Gotham Book.ttf in Resources */,
+				25162C22247848BF00E87196 /* GOTHAM-MEDIUM.TTF in Resources */,
+				25162C202478489300E87196 /* GOTHAM-BLACK.TTF in Resources */,
 				25C7FBD82476DE3F002771D5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,7 +164,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25C7FBD52476DE3F002771D5 /* ViewController.swift in Sources */,
+				25162C132478149000E87196 /* ProfileViewController.swift in Sources */,
+				25C7FBD52476DE3F002771D5 /* TabBarViewController.swift in Sources */,
 				25C7FBD12476DE3F002771D5 /* AppDelegate.swift in Sources */,
 				25C7FBD32476DE3F002771D5 /* SceneDelegate.swift in Sources */,
 				25C7FBDB2476DE3F002771D5 /* COWO_PROJECT.xcdatamodeld in Sources */,
